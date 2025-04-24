@@ -1,0 +1,299 @@
+.about-us {
+    font-family: Arial, sans-serif;
+    color: #333;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  /* Navigation */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .nav-logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .nav-links {
+    display: none;
+  }
+  
+  .mobile-menu-btn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .signup-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    padding: 20px 15px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+  /* Mission Section */
+  .mission {
+    padding: 20px 15px;
+    background-color: #f8f9fa;
+  }
+  
+  .mission h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .mission-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .mission-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .mission-card h3 {
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  /* Call to Action */
+  .cta {
+    padding: 30px 15px;
+    text-align: center;
+    background-color: #e9ecef;
+  }
+  
+  .cta h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .cta p {
+    margin-bottom: 20px;
+  }
+  
+  .explore-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* Partners Section */
+  .partners {
+    padding: 20px 15px;
+    text-align: center;
+  }
+  
+  .partners h2 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+  
+  .company-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .company-logos span {
+    padding: 5px 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 15px;
+  }
+  
+  .footer-about h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .footer-about h4 {
+    margin: 15px 0 10px;
+    font-size: 1.1rem;
+  }
+  
+  .footer-about p {
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+  
+  .footer-links {
+    margin-top: 30px;
+  }
+  
+  .links-column {
+    margin-bottom: 20px;
+  }
+  
+  .links-column h4 {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+  
+  .links-column ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .links-column li {
+    margin-bottom: 8px;
+  }
+  
+  .links-column a {
+    color: #adb5bd;
+    text-decoration: none;
+  }
+  
+  /* 485px Breakpoint */
+  @media (min-width: 485px) {
+    .hero h1 {
+      font-size: 2rem;
+    }
+    
+    .mission-cards {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .mission-card {
+      flex: 1 1 200px;
+      max-width: 200px;
+    }
+    
+    .company-logos {
+      gap: 20px;
+    }
+    
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    
+    .links-column {
+      flex: 1 1 150px;
+    }
+  }
+  
+  /* 768px Breakpoint */
+  @media (min-width: 768px) {
+    .mobile-menu-btn {
+      display: none;
+    }
+    
+    .nav-links {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+    
+    .hero {
+      padding: 40px;
+    }
+    
+    .hero-text {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .mission {
+      padding: 40px;
+    }
+    
+    .cta {
+      padding: 50px 40px;
+    }
+    
+    .partners {
+      padding: 40px;
+    }
+    
+    .footer-content {
+      display: flex;
+      gap: 40px;
+    }
+    
+    .footer-about {
+      flex: 1 1 300px;
+    }
+    
+    .footer-links {
+      flex: 2 1 500px;
+      margin-top: 0;
+    }
+  }
+  
+  /* 1024px Breakpoint */
+  @media (min-width: 1024px) {
+    .about-us {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    .navbar {
+      padding: 20px 40px;
+    }
+    
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+    
+    .mission-card {
+      flex: 1 1 250px;
+      max-width: 250px;
+    }
+    
+    .company-logos {
+      gap: 30px;
+    }
+    
+    .company-logos span {
+      padding: 8px 15px;
+      font-size: 1.1rem;
+    }
+    
+    .footer-content {
+      padding: 0 40px;
+    }
+  }

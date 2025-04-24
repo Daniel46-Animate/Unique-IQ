@@ -1,0 +1,280 @@
+/* AccountSettings.css */
+
+/* Base styles */
+.account-settings-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+  }
+  
+  .settings-header {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 20px;
+  }
+  
+  .settings-header h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .profile-section h2 {
+    font-size: 22px;
+    margin: 10px 0;
+  }
+  
+  .profile-section h3 {
+    font-size: 18px;
+    margin: 10px 0 15px;
+    color: #7f8c8d;
+  }
+  
+  .account-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .account-links a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: 500;
+  }
+  
+  .account-form-container {
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+  }
+  
+  .account-form-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .save-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .save-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .success-message {
+    margin-top: 15px;
+    color: #27ae60;
+    font-weight: 500;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 30px 0;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-brand {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .footer-column {
+    flex: 1;
+    min-width: 150px;
+  }
+  
+  .footer-column h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    color: #bdc3c7;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-column ul li a:hover {
+    color: #fff;
+  }
+  
+  .footer-column p {
+    color: #bdc3c7;
+    line-height: 1.6;
+  }
+  
+  .subscribe-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .subscribe-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .subscribe-form button {
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-info {
+    border-top: 1px solid #34495e;
+    padding-top: 20px;
+  }
+  
+  .contact-info h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+    color: #bdc3c7;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 1024px) {
+    .footer-links {
+      gap: 20px;
+    }
+    
+    .account-form-container {
+      padding: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .settings-header h1 {
+      font-size: 24px;
+    }
+    
+    .profile-section h2 {
+      font-size: 20px;
+    }
+    
+    .profile-section h3 {
+      font-size: 16px;
+    }
+    
+    .account-form-container h2 {
+      font-size: 20px;
+    }
+    
+    .footer-links {
+      flex-direction: column;
+      gap: 25px;
+    }
+    
+    .footer-column {
+      min-width: 100%;
+    }
+  }
+  
+  @media (max-width: 468px) {
+    .account-settings-container {
+      padding: 15px;
+    }
+    
+    .settings-header {
+      padding-bottom: 15px;
+    }
+    
+    .account-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .form-group input {
+      padding: 10px;
+    }
+    
+    .save-button {
+      padding: 10px 20px;
+      width: 100%;
+    }
+    
+    .subscribe-form {
+      flex-direction: row;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .settings-header h1 {
+      font-size: 22px;
+    }
+    
+    .account-form-container {
+      padding: 15px;
+    }
+    
+    .subscribe-form {
+      flex-direction: column;
+    }
+    
+    .subscribe-form button {
+      width: 100%;
+    }
+  }

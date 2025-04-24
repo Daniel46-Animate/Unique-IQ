@@ -1,0 +1,166 @@
+/* Base Styles (Mobile - 375px) */
+.course-page {
+    font-family: Arial, sans-serif;
+    padding: 15px;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .course-header {
+    margin-bottom: 20px;
+  }
+  
+  .course-header h1 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .overview {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  section {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  h2, h3, h4 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  .stats ul, .description ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .stats li, .description li {
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .stats li:before, .description li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #555;
+  }
+  
+  .download-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .footer-col {
+    margin-bottom: 15px;
+  }
+  
+  .footer-col h4 {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+  
+  .footer-col ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .footer-col li {
+    margin-bottom: 5px;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  .contact-info ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .stats-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* 485px Breakpoint */
+  @media (min-width: 485px) {
+    .course-header h1 {
+      font-size: 1.8rem;
+    }
+    
+    .footer-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* 768px Breakpoint */
+  @media (min-width: 768px) {
+    .course-page {
+      padding: 25px;
+    }
+    
+    .main-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+    
+    .announcement, .stats, .certification {
+      grid-column: 1 / -1;
+    }
+    
+    .footer-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .stats-bar {
+      justify-content: space-between;
+    }
+  }
+  
+  /* 1024px Breakpoint */
+  @media (min-width: 1024px) {
+    .course-page {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    .main-content {
+      grid-template-columns: 2fr 1fr;
+    }
+    
+    .description {
+      grid-column: 1;
+    }
+    
+    .instructor {
+      grid-column: 2;
+      grid-row: 4;
+    }
+    
+    .footer-grid {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
