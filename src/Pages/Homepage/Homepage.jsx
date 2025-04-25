@@ -60,7 +60,7 @@ const Homepage = () => {
             land to the end point as possible
           </p>
           <div className="cta-buttons">
-            <button className="primary-btn">Search For Course</button>
+            <input className="primary-btn" placeholder="Search For Course"/>
             <button className="secondary-btn">Browse Courses</button>
           </div>
         </div>
