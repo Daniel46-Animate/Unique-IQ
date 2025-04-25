@@ -39,7 +39,9 @@ const Homepage = () => {
 
     <nav className="navbar">
       <div className="nav-logo">
+        <a href='/'>
         <img src={Unique} alt="logo"/>
+        </a>
       </div>
       <ul className="nav-links">
         <li><a href="/">Home</a></li>
