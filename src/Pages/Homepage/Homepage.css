@@ -82,6 +82,7 @@ p {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     width: 150px;
+    padding-top: 10px;
 }
 
 .btn-secondary {
