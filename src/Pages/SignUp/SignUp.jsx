@@ -62,7 +62,7 @@ const SignUp = () => {
                 </div>
                 
                 <div class="terms">
-                    <p>By clicking Sign Up, you agree to our <a href="/About">Terms of Use</a> and our <a href="/About">Privacy Policy</a>.</p>
+                    <p>By clicking Sign Up, you agree to our <a href="/about">Terms of Use</a> and our <a href="/about">Privacy Policy</a>.</p>
                 </div>
                 
                 <button type="submit" class="signup-btn">SIGN UP</button>
