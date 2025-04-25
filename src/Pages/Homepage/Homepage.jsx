@@ -35,6 +35,17 @@ const Homepage = () => {
 
   return (
     <div className="body">
+
+    <nav className="navbar">
+      <ul className="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/categories">Course Categories</a></li>
+        <li><a href="/about">About Us</a></li>
+        <li><a href="/login">Log in</a></li>
+        <li><a href="/signup" className="signup-btn">Sign up</a></li>
+      </ul>
+    </nav>
+
       <section className="hero">
         <div className="hero-words">
           <h1>You Can Start Learning At Any Age!</h1>

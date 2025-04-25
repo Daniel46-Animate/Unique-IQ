@@ -8,7 +8,7 @@ const AboutUs = () => {
       <nav className="navbar">
         <div className="nav-logo">Name</div>
         <div className="nav-links">
-          <a href="/courses">Course Categories</a>
+          <a href="/Preview">Course Categories</a>
           <a href="/about">About Us</a>
           <a href="/login">Log In</a>
           <a href="/signup" className="signup-btn">Sign up</a>
