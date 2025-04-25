@@ -41,9 +41,9 @@ const SignUp = () => {
                 <div class="form-group">
                     <div class="name">
                     <input type="text" id="first-name" placeholder="First Name"  name="first-name"  
-            onChange={handleChange} required/>
+             required/>
                     <input type="text" id="last-name" placeholder="Last Name" name="last-name"  
-            onChange={handleChange} required/>
+            required/>
                     </div>
                 </div>
                 
