@@ -1,6 +1,7 @@
 import React from "react";
 import "./Homepage.css";
 import Man from "../../assets/man.png";
+import Unique from "../../assets/Unique IQ.png"
 
 const Homepage = () => {
 
@@ -37,6 +38,9 @@ const Homepage = () => {
     <div className="body">
 
     <nav className="navbar">
+      <div className="nav-logo">
+        <img src={Unique} alt="logo"/>
+      </div>
       <ul className="nav-links">
         <li><a href="/">Home</a></li>
         <li><a href="/categories">Course Categories</a></li>
