@@ -40,9 +40,9 @@ const SignUp = () => {
             <form onSubmit={handleSubmit} id="signup-form">
                 <div class="form-group">
                     <div class="name">
-                    <input type="text" id="first-name" placeholder="First Name"  name="first-name"  value={formData.firstName}
+                    <input type="text" id="first-name" placeholder="First Name"  name="first-name"  
             onChange={handleChange} required/>
-                    <input type="text" id="last-name" placeholder="Last Name" name="last-name"  value={formData.lastName}
+                    <input type="text" id="last-name" placeholder="Last Name" name="last-name"  
             onChange={handleChange} required/>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ const SignUp = () => {
                     <div>
                     <input type="password" id="password" placeholder="Password" name="password"   value={formData.password}
             onChange={handleChange} required/>
-                    <input type="password" id="confirm-password" placeholder="Confirm Password" name="confirm-password"   value={formData.confirmPassword}
+                    <input type="password" id="confirm-password" placeholder="Confirm Password" name="confirm-password"  
              required/>
                     </div>
                 </div>
