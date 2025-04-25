@@ -38,7 +38,7 @@ const Login = () => {
             
             <div class="input-group">
                 <label for="password">Password</label>
-                <input type="password" placeholder="Password" id="password" name="password" value={formData.email} onChange={handleChange} required minlength="6"/>
+                <input type="password" placeholder="Password" id="password" name="password" value={formData.password} onChange={handleChange} required minlength="6"/>
                 <div class="error-message" id="password-error">Password must be at least 6 characters</div>
             </div>
             

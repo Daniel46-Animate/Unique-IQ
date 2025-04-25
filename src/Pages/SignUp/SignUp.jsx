@@ -26,7 +26,6 @@ const SignUp = () => {
     console.log('Form submitted:', formData);
   };
 
-
   return (
     <div className="body">
         
@@ -58,7 +57,7 @@ const SignUp = () => {
                     <input type="password" id="password" placeholder="Password" name="password"   value={formData.password}
             onChange={handleChange} required/>
                     <input type="password" id="confirm-password" placeholder="Confirm Password" name="confirm-password"   value={formData.confirmPassword}
-            onChange={handleChange} required/>
+             required/>
                     </div>
                 </div>
                 

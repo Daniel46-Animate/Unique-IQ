@@ -89,6 +89,13 @@ body {
     text-align: center;
 }
 
+.error-message {
+    color: #d32f2f;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}
+
 .terms a {
     color: #800080;
     text-decoration: none;
