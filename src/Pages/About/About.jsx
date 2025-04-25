@@ -1,12 +1,17 @@
 import React from 'react';
 import './About.css';
+import Unique from '../../assets/Unique IQ.png'
 
 const AboutUs = () => {
   return (
     <div className="about-us">
       {/* Navigation */}
       <nav className="navbar">
-        <div className="nav-logo">Name</div>
+        <div className="nav-logo">
+          <a href='/'>
+            <img src={Unique} alt='logo' />
+          </a>
+        </div>
         <div className="nav-links">
           <a href="/Preview">Course Categories</a>
           <a href="/about">About Us</a>
@@ -21,13 +26,13 @@ const AboutUs = () => {
         <h1>Discover the creativity in you.</h1>
         <div className="hero-text">
           <p>
-            Mauris suspendisse ut urna faucibus aenean nisi blandit mauris, erat. Nunc lorem vel odio viverra quam.  
-            Turpis sed sit dictum habitant dignissim quam suscipit vitae. Enim sollicitudin risus interdum etiam  
+            Mauris suspendisse ut urna faucibus aenean nisi blandit mauris, erat. Nunc lorem vel odio viverra quam.
+            Turpis sed sit dictum habitant dignissim quam suscipit vitae. Enim sollicitudin risus interdum etiam
             volutpat pellentesque non. Tellus vestibulum nisi, vitae, nullam pellentesque vel.
           </p>
           <p>
-            Mauris suspendisse ut urna faucibus aenean nisi blandit mauris, erat. Nunc lorem vel odio viverra quam.  
-            Turpis sed sit dictum habitant dignissim quam suscipit vitae. Enim sollicitudin risus interdum etiam  
+            Mauris suspendisse ut urna faucibus aenean nisi blandit mauris, erat. Nunc lorem vel odio viverra quam.
+            Turpis sed sit dictum habitant dignissim quam suscipit vitae. Enim sollicitudin risus interdum etiam
             volutpat pellentesque non. Tellus vestibulum nisi, vitae, nullam pellentesque vel.
           </p>
         </div>
